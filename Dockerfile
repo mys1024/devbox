@@ -9,4 +9,4 @@ RUN apt update \
     && sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" \
     && usermod --shell /bin/zsh root
 
-CMD [ "/bin/zsh", "-c" ]
+CMD [ "zsh" ]
